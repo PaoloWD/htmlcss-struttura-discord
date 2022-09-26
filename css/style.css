@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 920px;
+    margin: auto;
+    
+}
+
+header{
+    background-color: aqua;
+    width: 100%;
+    padding: 2rem;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+nav .container{
+    background-color: yellow;
+    padding: 2rem;
+}
+
+main .blue .container{
+    padding: 0 5rem;
+}
+
+.green{
+    background-color: green;
+    padding: 10rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.blue{
+    background-color: blue;
+   
+}
+
+.violet{
+    background-color: violet;
+    padding: 10rem;
+
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    padding: 3rem;
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.col-2{
+    padding: 3rem;
+    background-color: pink;
+    flex-grow: 1;
+}
+
+.gray{
+    background-color: lightgray;
+}
