@@ -10,6 +10,10 @@
     
 }
 
+footer{
+    background-color: black;
+}
+
 header{
     background-color: aqua;
     width: 100%;
@@ -20,9 +24,37 @@ section{
     padding: 2rem 0;
 }
 
+footer .container .menu >div{
+    background-color: pink;
+    padding: 1rem;
+}
+
+footer section .row .col-2{
+    flex-grow: 2;
+    padding: 10rem 0;
+}
+
+footer section .row .col{
+    flex-grow: 1;
+    padding: 10rem 0;
+}
+
+footer .container .menu{
+    background-color: aquamarine;
+    padding: 2rem 0;
+}
+
+footer .container{
+    padding: 1rem 0;
+}
+
+footer section{
+    padding: 0;
+}
+
 nav .container{
     background-color: yellow;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 main .blue .container{
@@ -70,4 +102,9 @@ main .blue .container{
 
 .gray{
     background-color: lightgray;
+}
+
+.nav-footer{
+    display: flex;
+    color: white;
 }
